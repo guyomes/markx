@@ -488,6 +488,7 @@ function initMarkdownEditor() {
 		lineWrapping : true,
 		autofocus: true,
 		mode: 'markdown',
+        vimMode: true,
 		theme: 'elegant'
 	});
 	codeMirrorEditor.on('change', updatePreview);
